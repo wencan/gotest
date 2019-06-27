@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 func Output() {
