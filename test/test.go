@@ -1,9 +1,7 @@
 package test
 
 import (
-	"fmt"
-  
-  "github.com/uber-go/zap"
+	"github.com/uber-go/zap"
 )
 
 func Output() {
