@@ -1,9 +1,10 @@
 package gotest
 
+
 import (
-	"fmt"
+	"go.uber.org/zap"
 )
 
-func Print() {
-	fmt.Println("Hello, playground")
+func Output() {
+	zap.NewExample().Sugar().Info("Hello, playground")
 }
