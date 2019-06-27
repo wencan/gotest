@@ -1,9 +1,9 @@
 package test
 
 import (
-	"go.uber.org/zap"
+	"fmt"
 )
 
-func Output() {
-	zap.NewExample().Sugar().Info("Hello, playground")
+func Print() {
+	fmt.Println("Hello, playground")
 }
